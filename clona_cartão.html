@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>não é golpe de clonar cartão é serio</title>
+</head>
+<body>
+    <form action="INDEX.PHP" method="post" enctype="multipart/form-data">
+
+        <label for="nome legível do cartão">nome legível do cartão:</label>
+          <input type="text" id="nome legível do cartão" placeholder="digite o nome legível"  minlength="3"  required>
+          
+          <br>
+        
+          <label for="nome legível do cartão">número do cartão:</label>
+          <input type="password" id= "password" minlength="12"  required><br>
+       
+
+          <label for="email para o código de segurança"placeholder="digite o nome legível"  minlength="6"  required>    email para o código de segurança:</label>
+          <input type="email" id="email">  
+          <br> 
+     
+          <label for="número de telefone" laceholder="seu número please"  minlength="3"  required>número para mandarmos a sua imtrega:</label>
+          <input type="tel" id="telefone" placeholder="345-678-912 " pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+
+          <br>
+          <label for="aniver">data de nascimento</label>
+          <input type="date" id="aniver">
+          <br>
+          <label for="quantidade">quantidade de dinheiro na conta</label>
+            <input type="number" min="0" value="1"> <br>
+
+            <label for="titulo">cargo que você tem:</label>
+<br>
+            <label for="senhor">senhor:</label>
+            <input type="radio" id="senhor" value="senhor" name="title">
+
+            <label for="senhora">senhora</label>
+            <input type="radio" id="senhora" value="senhora" name="title">
+
+            <label for="dr.">doutor</label>
+            <input type="radio" id="dr." value="dr." name="title">
+            <br>
+
+            <label for="pagamento">forma de pagento além do golpe</label>
+               <select>
+                <option value="visa">visa</option>
+                <option value="mastercard">mastercard</option>
+                <option value="giftcard">giftcard</option>
+               </select><br>
+
+               <label for="inscrever-se">inscrever-se</label>
+               <input type="checkbox" id="inscrever-se"><br>
+
+               <label for="comentário">escreve algo aí seu merda</label>
+               <textarea id="comentário" rows="3" cols="25"></textarea><br>
+
+               <label for="arquivo">arquivo S2</label>
+               <input type="file" id="arquivo" accept="image/png"> <br>
+                <br>
+          <input type="submit">
+          <input type="reset">
+  
+    </form>
+</body>
+</html>
